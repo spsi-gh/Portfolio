@@ -1,0 +1,57 @@
+# Due to how Astro handles type inference with this structure,
+# we need to prefix all configuration keys with an underscore.
+
+[_.site]
+baseUrl = "http://zaggonaut.dev"
+
+[_.globalMeta]
+title = "Surya's Portfolio"
+description = "AI/ML Engineer"
+longDescription = "Proactive and passionate Computer Science undergraduate, specialized in Machine Learning, Deep Learning, Generative AI and algorithmic problem-solving."
+cardImage = "https://zaggonaut.dev/michael-dam-unsplash.webp"
+keywords = ["machine learning", "ai", "technology"]
+
+[_.blogMeta]
+title = "Surya's Blog"
+description = "Sharing my learnings."
+longDescription = "Machine Learning, tech trends, and the occasional programming mishap."
+cardImage = "https://zaggonaut.dev/michael-dam-unsplash.webp"
+keywords = ["machine learning", "ai", "technology"]
+
+[_.projectMeta]
+title = "Surya's Projects"
+description = "A list of my projects and developer tools."
+longDescription = "All of my projects, including machine learning, deep learning and gen ai applications."
+cardImage = "https://zaggonaut.dev/michael-dam-unsplash.webp"
+keywords = ["machine learning", "ai", "technology"]
+
+[_.notFoundMeta]
+title = "Surya 404"
+description = "The page you are looking for does not exist."
+longDescription = "The page you are looking for does not exist. Maybe it never existed. Spooky."
+cardImage = "https://zaggonaut.dev/michael-dam-unsplash.webp"
+
+[_.hero]
+title = "Surya Pratap Singh"
+subtitle = "AI/ML Engineer"
+image = "/surya.jpeg"
+ctaText = "View Projects"
+ctaUrl = "/projects"
+
+[_.personal]
+name = "Surya"
+githubProfile = "https://github.com/spsi-gh"
+twitterProfile = "https://twitter.com"
+linkedinProfile = "https://linkedin.com/"
+
+[_.texts]
+articlesName = "Articles"
+projectsName = "Projects"
+viewAll = "View All"
+noArticles = "No articles found."
+noProjects = "No projects found."
+
+[_.menu]
+home = "/"
+projects = "/projects"
+blog = "/blog"
