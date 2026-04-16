@@ -34,7 +34,7 @@ cardImage = "https://zaggonaut.dev/michael-dam-unsplash.webp"
 [_.hero]
 title = "Surya Pratap Singh"
 subtitle = "AI/ML Engineer"
-image = "/surya.jpeg"
+image = "https://raw.githubusercontent.com/spsi-gh/Portfolio/main/public/surya.jpeg"
 ctaText = "View Projects"
 ctaUrl = "/projects"
 
