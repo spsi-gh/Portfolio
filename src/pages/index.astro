@@ -4,6 +4,8 @@ import Section from "../components/common/Section.astro";
 import FeaturedArticles from "../components/home/FeaturedArticles.astro";
 import FeaturedProjects from "../components/home/FeaturedProjects.astro";
 import Hero from "../components/home/Hero.astro";
+import AboutMe from "../components/home/AboutMe.astro";
+import Skills from "../components/home/Skills.astro";
 import Layout from "../layouts/Layout.astro";
 import { getConfigurationCollection } from "../lib/utils";
 
@@ -55,13 +57,19 @@ const featuredArticles = (
     <meta name="language" content="English" />
     <link rel="canonical" href={config.site.baseUrl} />
   </Fragment>
-  <Section class="my-16">
+  <Section class="my-8">
     <Hero />
   </Section>
-  <Section>
+  <Section class="my-8">
+    <AboutMe />
+  </Section>
+  <Section class="my-8">
+    <Skills />
+  </Section>
+  <Section class="my-8">
     <FeaturedProjects featuredProjects={featuredProjects} />
   </Section>
-  <Section>
+  <Section class="my-8">
     <FeaturedArticles featuredArticles={featuredArticles} />
   </Section>
 </Layout>

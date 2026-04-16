@@ -10,9 +10,11 @@
     "astro": "astro",
     "preinstall": "npx only-allow pnpm",
     "format": "biome format --write",
-    "lint": "biome lint --write"
+    "lint": "biome lint --write",
+    "generate-types": "wrangler types"
   },
   "dependencies": {
+    "@astrojs/cloudflare": "^13.1.10",
     "@tailwindcss/typography": "^0.5.19",
     "@tailwindcss/vite": "^4.2.2",
     "astro": "^6.1.2",
@@ -21,6 +23,10 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^2.4.10",
-    "@types/node": "^22.19.3"
+    "@types/node": "^22.19.3",
+    "wrangler": "^4.83.0"
+  },
+  "overrides": {
+    "vite": "^7"
   }
 }

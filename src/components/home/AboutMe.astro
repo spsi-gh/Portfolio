@@ -1,0 +1,12 @@
+---
+import { getConfigurationCollection } from "../../lib/utils";
+
+const { data: config } = await getConfigurationCollection();
+---
+
+<div>
+  <h2 class="font-display text-2xl mb-4">About Me</h2>
+  <p class="text-justify">
+    Hi, I'm {config.personal.name}, a passionate AI/ML Engineer with a keen interest in machine learning, deep learning, and generative AI. I specialize in developing innovative solutions using cutting-edge technologies to solve real-world problems. With a strong foundation in computer science and a drive for continuous learning, I enjoy exploring new algorithms and frameworks to push the boundaries of what's possible in AI.
+  </p>
+</div>

@@ -1,29 +1,27 @@
 ---
-title: Zaggonaut
-slug: zaggonaut
-description: A retro-inspired theme for Astro, built using TypeScript, TailwindCSS, and Astro.
-longDescription: Zaggonaut is a retro-inspired theme for Astro, built using TypeScript, TailwindCSS, and Astro.
+title: Octo AI
+slug: octoai
+description: Mood-Based Music Discovery Engine.
+longDescription: End-to-end AI-driven recommendation platform that translates natural language emotional states into personalized, actionable Spotify playlists.
 cardImage: "https://zaggonaut.dev/michael-dam-unsplash.webp"
-tags: ["astro", "portfolio", "open-source"]
-githubUrl: https://github.com/RATIU5/zaggonaut
+tags: ["ai", "ml", "backend"]
+githubUrl: https://github.com/spsi-gh/octo-ai
 timestamp: 2025-02-24T02:39:03+00:00
 featured: true
 ---
 
 ## The Details
 
-Zaggonaut is a retro-inspired theme for Astro, built using TypeScript, TailwindCSS, and Astro. Use this theme to power your own personal website, blog, or portfolio with flexibility and customization.
+ Octo AI is an end-to-end AI-driven recommendation platform that translates natural language emotional states into personalized, actionable Spotify playlists.
+
 
 ## The Features
 
-- Content Collections
-- Dark & light mode
-- Customizable colors
-- 100 / 100 Lighthouse score
-- Fully accessible
-- Fully responsive
-- Type-safe
+- A FastAPI REST backend integrating Google Gemini Pro and Spotify Web API with async workflows.
+- OAuth 2.0 with scoped permissions for playlist creation and user data access.
+- Data integrity using Pydantic schemas and optimized JSON-based data handling.
 
-## The Future
 
-Check out [the theme website](https://zaggonaut.dev) to see it in action!
+<!-- ## The Future
+
+Check out [the theme website](https://zaggonaut.dev) to see it in action! -->
